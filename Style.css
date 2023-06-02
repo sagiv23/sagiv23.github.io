@@ -53,12 +53,13 @@ a{
     color: black;
 }
 
-
 body{
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 1920px;
+    background-blend-mode:soft-light;
+    background-color: rgba(255, 255, 255, 0.1);
     width: 1904px;
 }
 
