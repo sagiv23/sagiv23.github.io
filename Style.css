@@ -6,12 +6,13 @@
 nav{
     display: flex;
     align-items: center;
-    justify-content: space-between; 
-    position: fixed; 
-    background-image: url("img/background_navbar.png");
-    /* background: linear-gradient(rgb(5,38,124),rgb(33, 103, 162),rgb(0, 222, 240)); */
-    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    background: linear-gradient(rgb(5,38,124),rgb(33, 103, 162),rgb(0, 222, 240));
     top: 0px;
+    width: 100%;
+    border-bottom: 6px solid;
+    border-color: rgb(5,38,124);
 }
 
 @media screen and (max-width: 768px) {
