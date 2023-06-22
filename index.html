@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Secular+One&display=swap" rel="stylesheet">
+
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Poppins:wght@300&family=Secular+One&display=swap");
         body{
@@ -30,23 +31,68 @@
             </ul>
         </nav>
     </div>
-    <div id = "Sagiv23">
-        <h1>About us!</h1>
+    <div id="main">
 
-        <h2>Hello! You have arrived to the Sagiv23 course!!!<br>
-            The website was created by Sagiv and Liel, 9 - 10th grade students (as of the construction of the website).</h2>
+        <div id = "sl">
 
+            <h1>שגיב & ליאל<br>
+            <button onclick="sl_qu()">↓</button>
 
-        <h2><span id="command">Python</span>: <a href="https://sagiv23.github.io/Python"> <img src="img/Python_icon.png" id = "_icon"></a></h2>
-        <h2><span id="command">Csharp</span>: <a href="https://sagiv23.github.io/Csharp"> <img src="img/Csharp_icon.png" id = "_icon"></a></h2>
-        <h2><span id="command">Java</span>: <a href="https://sagiv23.github.io/Java"> <img src="img/Java_icon.png" id = "_icon"></a></h2>
-        <h2><span id="command">C</span>: <a href="https://sagiv23.github.io/C"> <img src="img/C_icon.png" id = "_icon"></a></h2>
-        <h2><span id="command">Html</span>: <a href="https://sagiv23.github.io/Html"> <img src="img/Html_icon.png" id = "_icon"></a></h2>
-        <h2><span id="command">Css</span>: <a href="https://sagiv23.github.io/Css"> <img src="img/Css_icon.png" id = "_icon"></a></h2>
+        </div>
+    
+        <div id="_qu">
 
+            <h4>סוד</h4>
+            <h4>סוד</h4>
+
+            <div id="qu">
+                <h2>?מי אנחנו</h2>
+        
+                <h3>!שלום! אנחנו שגיב וליאל<br>
+                    :המטרה העיקרית שלנו היא לגשת לכלל האוכלוסיה וללמד אותה תכנות באמצעות השפות 
+                    <br>פייתון, סי שארפ, ג'אווה, סי ועוד</h3>
+
+                <img src = "img/python.png" id = "_icon">
+                <img src = "img/csharp.png" id = "_icon">
+                <img src = "img/java.png" id = "_icon">
+                <img src = "img/c.png" id = "_icon">
+
+                <h5></h5>
+
+                <button id = "on" onclick="qu_sl()">↑</button>
+                <button id = "on" onclick="qu_w()">↓<br></button>
+
+            </div>
+
+        </div>
+        
+        <div id="_w">
+
+            <h4>סוד</h4>
+
+            <div id="w">
+
+                <h2>?מהם האתרים שבנינו ואיך נכנסים אליהם</h2>
+    
+                <a href="https://sagiv23.github.io/Python"><img src = "img/python.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/Csharp"><img src = "img/csharp.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/Java"><img src = "img/java.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/C"><img src = "img/c.png" id = "_icon"></a>
+    
+                <h3>!בשביל להיכנס לכל אתר, לחצו על האייקון או על שם השפה בתפריט שלמעלה</h3>
+    
+                <button id = "on" onclick="w_sl()">↑</button>
+            </div>
+        </div>
+        
+
+        <h4>hi</h4>
+        <h4>hi</h4>
         <audio src="Godzilla.mp3" controls></audio>
-        <h2></h2>
-        <script src="js.js"></script>
+
     </div>
+    
+        <script src="js.js"></script>
+    
 </body>
 </html>
