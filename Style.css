@@ -151,7 +151,7 @@ h5{
     border-style: ridge;
     border-bottom: 4px solid;
     border-color: white;
-    margin-top: 130px;
+    margin-top: 200px;
     background-color: rgb(116, 163, 157);
     height: 500px;
     width: 99.7%;
@@ -162,7 +162,7 @@ h5{
     border-style: ridge;
     border-bottom: 4px solid;
     border-color: white;
-    margin-top: 130px;
+    margin-top: 200px;
     background-color: rgb(116, 163, 157);
     height: 550px;
     width: 99.7%;
@@ -173,7 +173,7 @@ h5{
     border-style: ridge;
     border-bottom: 4px solid;
     border-color: white;
-    margin-top: 130px;
+    margin-top: 200px;
     background-color: rgb(116, 163, 157);
     height: 530px;
     width: 99.7%;
@@ -184,7 +184,7 @@ h5{
     border-style: ridge;
     border-bottom: 4px solid;
     border-color: white;
-    margin-top: 130px;
+    margin-top: 200px;
     background-color: rgb(116, 163, 157);
     height: 730px;
     width: 99.7%;
@@ -247,6 +247,6 @@ button:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1800px;
+    width: 1000px;
     height: 450px;
 }
