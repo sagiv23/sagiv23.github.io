@@ -4,6 +4,13 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
   }); 
 }
 
+var Movies = new Typed(".Title", {
+  strings:["Sagiv23"],
+  typeSpeed : 100 , 
+  backSpeed : 100 , 
+  loop:true
+})
+
 function sl_qu() {
   document.getElementById("_qu").style.display = 'block';
   document.getElementById("_qu").scrollIntoView({ behavior: 'smooth'});

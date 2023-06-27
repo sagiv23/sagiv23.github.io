@@ -16,12 +16,6 @@ nav{
     /* background: linear-gradient(rgb(5,38,124),rgb(33, 103, 162),rgb(0, 222, 240)); */
 }
 
-@media screen and (max-width: 768px) {
-    .navbar {
-        width: 80%;
-    }
-}
-
 #Icon_Img_nav{
     height: 60px;
     width: 60px;
@@ -78,6 +72,16 @@ body::-webkit-scrollbar-thumb {
 }
 
 h1{
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 300px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+}
+
+.Title{
     -webkit-text-fill-color:white;
     -webkit-text-stroke-width: 1px;
     margin-top: 300px;
@@ -285,4 +289,9 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     height: 600px;
+}
+
+@keyframes logoAnimation{
+    from{margin-left: 70%;}
+    to{margin-left: 0px;}
 }
