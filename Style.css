@@ -38,7 +38,7 @@ li:hover{
 }
 
 ul{
-    margin-right: 450px; 
+    margin-right: 700px; 
 }
 
 a{
@@ -81,18 +81,8 @@ h1{
     text-align: center;
 }
 
-.Title{
-    -webkit-text-fill-color:white;
-    -webkit-text-stroke-width: 1px;
-    margin-top: 300px;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
-    font-size: 150px;
-    text-align: center;
-}
-
 h2{
-    -webkit-text-fill-color:white;
+    -webkit-text-fill-color: white;
     -webkit-text-stroke-width: 1px;
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
@@ -116,22 +106,6 @@ h4{
     font-family: 'Rajdhani', sans-serif;
     font-weight: bold;
     font-size: 90px;
-    text-align: center;
-}
-
-h5{
-    color:rgb(116, 163, 157);
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-}
-
-h6{
-    color:rgb(166, 233, 224);
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
     text-align: center;
 }
 
@@ -289,9 +263,4 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     height: 600px;
-}
-
-@keyframes logoAnimation{
-    from{margin-left: 70%;}
-    to{margin-left: 0px;}
 }
