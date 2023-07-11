@@ -187,7 +187,7 @@ h4{
     border-bottom: 4px solid;
     border-color: white;
     background-color: rgb(116, 163, 157);
-    height: 2050px;
+    height: 2800px;
     width: 99.7%;
     transition: opacity 0.5s ease-in-out;
 }
@@ -245,22 +245,17 @@ button:hover{
 }
 
 #video1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 450px;
 }
 
 #backrooms{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 600px;
 }
 
 #video2{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 600px;
+}
+
+#ido{
+    height: 700px;
 }
