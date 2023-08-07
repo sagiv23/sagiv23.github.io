@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+    <script src="js.js"></script>
+    <title>Sagiv23</title>
+    <link rel="icon" href="img/icon_head.png" type="image/icon type">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Secular+One&display=swap" rel="stylesheet">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Poppins:wght@300&family=Secular+One&display=swap");
+        body{
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div id="head">
+        <nav>
+            <a href="index.html"> <img src = "img/icon.png" id = "Icon_Img_nav"></a>
+            <ul>
+                <a href="https://sagiv23.github.io/Python"> <li>Python</li></a>
+                <a href="https://sagiv23.github.io/Csharp"> <li>c#</li></a>
+                <a href="https://sagiv23.github.io/Java"> <li>Java</li></a>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="main">
+        <div id = "sl">
+            <h1><span class="Title"></span><br></h1>
+            <button onclick="sl_qu()">↓</button>
+            
+        </div>
+    
+        <div id="_qu">
+
+            <h4>סוד</h4>
+            <h4>סוד</h4>
+        
+            <div id="qu">
+                <h2>?מי אני</h2>
+        
+                <h3>.שלום! קוראים לי שגיב, תלמיד כיתה י<br>
+                    :המטרה העיקרית של האתר היא ללמד תכנות באמצעות השפות 
+                    <br>פייתון, סי שארפ, ג'אווה, סי ועוד</h3>
+
+                <img src = "img/python.png" id = "_icon">
+                <img src = "img/csharp.png" id = "_icon">
+                <img src = "img/java.png" id = "_icon">
+                <img src = "img/c.png" id = "_icon">
+
+                <h4 style="color:rgb(116, 163, 157); font-size: 50px;"></h4>
+
+                <button id = "on" onclick="sl()">↑</button>
+                <button id = "on" onclick="qu_w()">↓<br></button>
+
+            </div>
+
+        </div>
+        
+        <div id="_w">
+
+            <h4 style="font-size: 20px;">סוד</h4>
+
+            <div id="w">
+                <h2>?מהם האתרים שבנינו ואיך נכנסים אליהם</h2>
+    
+                <a href="https://sagiv23.github.io/Python"><img src = "img/python.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/Csharp"><img src = "img/csharp.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/Java"><img src = "img/java.png" id = "_icon"></a>
+                <a href="https://sagiv23.github.io/C"><img src = "img/c.png" id = "_icon"></a>
+    
+                <h3>!בשביל להיכנס לכל אתר, לחצו על האייקון או על שם השפה בתפריט שלמעלה</h3>
+    
+                <button id = "on" onclick="w_qu()">↑</button>
+                <button id = "on" onclick="w_url()">↓<br></button>
+            </div>
+        </div>
+
+        <div id="_url">
+
+            <h4 style="font-size: 20px;">סוד</h4>
+
+            <div id="url">
+                <h2>קישורים</h2>
+    
+                <a href="https://github.com/sagiv23"><h3 id="urls">Github</h3></a>
+                <a href="https://www.onlinegdb.com/online_python_compiler"><h3 id="urls">Compiler Online</h3></a>
+                <a href="http://blog.csit.org.il/MyBlog.aspx?BlogID=29"><h3 id="urls">CSITBlog</h3></a>
+                <a href="https://sagiv23.github.io/C"></a>
+    
+                <button id = "on" onclick="url_w()">↑</button>
+                <button id = "on" onclick="w_th()">↓<br></button>
+            </div>
+        </div>
+
+        <div id="_th">
+
+            <h4 style="font-size: 20px;">סוד</h4>
+
+            <div id="th">
+                <h2>תודות</h2>
+                
+                <h3>!תודה רבה לכל התומכים באתר</h3>
+
+                <h3>תודה רבה ל: שגיב יוסילבסקי, ליאל הלמן, עמרי המלך, גיא זילברשטיין, רותם גוילי, ניר דרמר, רון, איליי שמשוני, עידו דרורי, אופיר כהן, בנימין וברק</h3>
+
+                <a href="https://www.youtube.com/watch?v=9qDwy5nNvUk&t=78s"><h3 id="urls">ערוץ היוטיוב של עידו (לחצו על המשפט)</h3></a>
+
+                <button id = "on" onclick="th_url()">↑</button>
+                <button id = "on" onclick="th_video()">↓<br></button>
+            </div>
+        </div>
+
+        <div id="_video">
+
+            <h4>סוד</h4>
+
+            <div id="videos">
+                <h2>סרטונים</h2>
+                
+                <video id="video1" controls=""> <source src="img/video1.mp4" type="video/mp4"></video>
+                <h4 style="color:rgb(116, 163, 157); font-size: 50px;">סוד</h4>
+                <video id="video2" controls=""> <source src="img/video2.mp4" type="video/mp4"></video>
+                <h4 style="color:rgb(116, 163, 157); font-size: 50px;">סוד</h4>
+                <video id="backrooms" controls=""> <source src="img/backrooms.mp4" type="video/mp4"></video>
+                <h4 style="color:rgb(116, 163, 157); font-size: 50px;">סוד</h4>
+                <img src = "img/ido.jpg" id = "ido">
+                <h4></h4>
+
+                <button id = "on" onclick="video_th()">↑</button>
+            </div>
+        </div>
+        
+
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h2>חזרה למעלה</h2>
+        <button onclick="sl()">↑</button>
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h3>Godzilla</h3>
+        <audio id = "Godzilla" src="Godzilla.mp3" controls></audio>
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h3>Secret Invasion</h3>
+        <audio id = "Secret_Invasion" src="Secret_Invasion.mp3" controls></audio>
+        <h4 style="font-size: 20px;">סוד</h4>
+        <h4 style="font-size: 20px;">סוד</h4>
+
+    </div>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="js.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(36, 123, 160);
+    width: 100%;
+    border-bottom: 4px solid;
+    border-color: white;
+    /* background: linear-gradient(rgb(5,38,124),rgb(33, 103, 162),rgb(0, 222, 240)); */
+}
+
+#Icon_Img_nav{
+    height: 70px;
+    width: 200px;
+    margin-left: 20px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 80px;
+    list-style-type: none;
+    color: rgba(245, 234, 234, 0.925);
+    -webkit-text-fill-color: rgba(245, 234, 234, 0.925);
+    -webkit-text-stroke-width: 1px;
+}
+
+li:hover{
+    transition: 1s;
+    color: rgb(166, 233, 224);
+    -webkit-text-fill-color: rgb(166, 233, 224);
+}
+
+ul{
+    margin-right: 700px; 
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 45px;
+    color: black;
+}
+
+body{
+    background-color: rgb(166, 233, 224);
+    background-size: 1920px;
+    width: 1904px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1920px;
+    background-blend-mode:soft-light;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgb(36, 123, 160);
+}
+ 
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(36, 123, 160);
+    outline: 1px solid slategrey;
+}
+
+h1{
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 300px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+}
+
+h2{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+    text-decoration: underline rgb(166, 233, 224);
+}
+
+h3{
+    -webkit-text-fill-color:white;
+    -webkit-text-stroke-width: 1px;
+    margin-top: 40px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4{
+    color:rgb(166, 233, 224);
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+}
+
+#main{
+    text-align: center;
+}
+
+#sl{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: rgb(166, 233, 224);
+    margin-top: 20px;
+    height: 1080px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#qu{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    background-color: rgb(116, 163, 157);
+    height: 600px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#_w{
+    margin-top: 800px;
+}
+
+#_url{
+    margin-top: 800px;
+}
+
+#_th{
+    margin-top: 800px;
+}
+
+#_video{
+    margin-top: 800px;
+}
+
+#w{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    margin-top: 200px;
+    background-color: rgb(116, 163, 157);
+    height: 500px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#url{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    margin-top: 200px;
+    background-color: rgb(116, 163, 157);
+    height: 550px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#th{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    margin-top: 200px;
+    background-color: rgb(116, 163, 157);
+    height: 600px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#videos{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    background-color: rgb(116, 163, 157);
+    height: 2900px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#_icon{
+    height: 100px;
+    width: 100px;
+    margin-left: 200px;
+}
+
+audio{
+    margin: 0 auto;
+    display: block;
+}
+
+audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
+    background-color: rgb(36, 123, 160);
+}
+
+iframe{
+    border-style: ridge;
+    border-color: rgb(166, 233, 224);
+    border-width: 9px;
+    margin: 0 auto;
+    width: 1886px;
+    height: 800px;
+    display: block;
+}
+
+button{
+    background-color: white;
+    -webkit-text-fill-color:rgb(166, 233, 224);
+    background-color: rgb(36, 123, 160);
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 100px;
+    font-size: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(116, 163, 157);
+    -webkit-text-fill-color:white;
+}
+
+#on:hover{
+    background-color: rgb(166, 233, 224);
+}
+
+#urls:hover{
+    transition: 1s;
+    -webkit-text-fill-color: rgb(166, 233, 224);
+}
+
+#video1{
+    height: 450px;
+}
+
+#backrooms{
+    height: 600px;
+}
+
+#video2{
+    height: 600px;
+}
+
+#ido{
+    height: 700px;
+}
