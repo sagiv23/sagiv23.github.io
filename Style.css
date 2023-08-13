@@ -259,3 +259,8 @@ button:hover{
 #ido{
     height: 700px;
 }
+
+#tshovot_math:hover{
+    transition: 1s;
+    -webkit-text-fill-color: rgb(166, 233, 224);
+}
