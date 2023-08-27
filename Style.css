@@ -181,16 +181,6 @@ h4{
     transition: opacity 0.5s ease-in-out;
 }
 
-#videos{
-    border-style: ridge;
-    border-bottom: 4px solid;
-    border-color: white;
-    background-color: rgb(116, 163, 157);
-    height: 2900px;
-    width: 99.7%;
-    transition: opacity 0.5s ease-in-out;
-}
-
 #_icon{
     height: 100px;
     width: 100px;
@@ -205,6 +195,15 @@ iframe{
     width: 1886px;
     height: 800px;
     display: block;
+}
+
+audio{
+    margin: 0 auto;
+    display: block;
+}
+
+audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
+    background-color: rgb(166, 233, 224);
 }
 
 button{
