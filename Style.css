@@ -13,7 +13,7 @@ nav{
     width: 100%;
     border-bottom: 4px solid;
     border-color: white;
-    /* background: linear-gradient(rgb(5,38,124),rgb(33, 103, 162),rgb(0, 222, 240)); */
+    height: 75px;
 }
 
 #Icon_Img_nav{
@@ -38,7 +38,10 @@ li:hover{
 }
 
 ul{
-    margin-right: 700px; 
+    display: flex;
+    align-items: center;
+    margin-right: 700px;
+    list-style-type: none;
 }
 
 a{
@@ -137,15 +140,11 @@ h4{
     margin-top: 800px;
 }
 
+#_sign_in_up{
+    margin-top: 800px;
+}
+
 #_url{
-    margin-top: 800px;
-}
-
-#_th{
-    margin-top: 800px;
-}
-
-#_video{
     margin-top: 800px;
 }
 
@@ -160,6 +159,17 @@ h4{
     transition: opacity 0.5s ease-in-out;
 }
 
+#sign_in_up{
+    border-style: ridge;
+    border-bottom: 4px solid;
+    border-color: white;
+    margin-top: 200px;
+    background-color: rgb(112, 128, 144);
+    height: 450px;
+    width: 99.7%;
+    transition: opacity 0.5s ease-in-out;
+}
+
 #url{
     border-style: ridge;
     border-bottom: 4px solid;
@@ -167,17 +177,6 @@ h4{
     margin-top: 200px;
     background-color: rgb(116, 163, 157);
     height: 550px;
-    width: 99.7%;
-    transition: opacity 0.5s ease-in-out;
-}
-
-#th{
-    border-style: ridge;
-    border-bottom: 4px solid;
-    border-color: white;
-    margin-top: 200px;
-    background-color: rgb(116, 163, 157);
-    height: 600px;
     width: 99.7%;
     transition: opacity 0.5s ease-in-out;
 }
@@ -196,15 +195,6 @@ h4{
     height: 100px;
     width: 100px;
     margin-left: 200px;
-}
-
-audio{
-    margin: 0 auto;
-    display: block;
-}
-
-audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
-    background-color: rgb(36, 123, 160);
 }
 
 iframe{
@@ -240,27 +230,6 @@ button:hover{
 }
 
 #urls:hover{
-    transition: 1s;
-    -webkit-text-fill-color: rgb(166, 233, 224);
-}
-
-#video1{
-    height: 450px;
-}
-
-#backrooms{
-    height: 600px;
-}
-
-#video2{
-    height: 600px;
-}
-
-#ido{
-    height: 700px;
-}
-
-#tshovot_math:hover{
     transition: 1s;
     -webkit-text-fill-color: rgb(166, 233, 224);
 }
