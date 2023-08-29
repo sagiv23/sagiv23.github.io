@@ -154,7 +154,7 @@ h4{
     border-color: white;
     margin-top: 200px;
     background-color: rgb(116, 163, 157);
-    height: 500px;
+    height: 550px;
     width: 99.7%;
     transition: opacity 0.5s ease-in-out;
 }
@@ -164,8 +164,8 @@ h4{
     border-bottom: 4px solid;
     border-color: white;
     margin-top: 200px;
-    background-color: rgb(112, 128, 144);
-    height: 450px;
+    background-color: rgb(116, 163, 157);
+    height: 475px;
     width: 99.7%;
     transition: opacity 0.5s ease-in-out;
 }
@@ -176,7 +176,7 @@ h4{
     border-color: white;
     margin-top: 200px;
     background-color: rgb(116, 163, 157);
-    height: 550px;
+    height: 400px;
     width: 99.7%;
     transition: opacity 0.5s ease-in-out;
 }
