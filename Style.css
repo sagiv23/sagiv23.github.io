@@ -53,11 +53,8 @@ a{
 
 body{
     background-color: rgb(166, 233, 224);
-    background-size: 1920px;
-    width: 1904px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1920px;
     background-blend-mode:soft-light;
 }
 
