@@ -1,9 +1,3 @@
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) && window.matchMedia("(orientation: portrait)").matches) {
-  window.addEventListener("load",function(){
-    swal("!חכו", "!אנא סובבו את המסך למצב רוחבי עבור חווית הצפייה הטובה ביותר", "error");
-  }); 
-}
-
 var Title = new Typed(".Title", {
   strings:["Sagiv23"],
   typeSpeed : 120 , 
